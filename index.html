@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+      #character {
+        width: 40vmin;
+        height: 40vmin;
+      }
+
+      #guides {
+        stroke: #999999;
+      }
+
+      .out {
+        stroke: #000000;
+        opacity: 1.0;
+        stroke-linecap: round;
+      }
+
+      .out:hover {
+        stroke: #a03030;
+        opacity: 1.0;
+      }
+    </style>
+
+    <script src="node_modules/domready/ready.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <svg id="character" viewBox="0 0 100 100">
+      <use xlink:href="base.svg#guides" id="guides"></use>
+      <use xlink:href="base.svg#out1"   id="out1" class="out"></use>
+      <use xlink:href="base.svg#out2"   id="out2" class="out"></use>
+      <use xlink:href="base.svg#out3"   id="out3" class="out"></use>
+      <use xlink:href="base.svg#out4"   id="out4" class="out"></use>
+      <use xlink:href="base.svg#out5"   id="out5" class="out"></use>
+      <use xlink:href="base.svg#out6"   id="out6" class="out"></use>
+    </svg>
+  </body>
+</html>
