@@ -1,3 +1,5 @@
-export default point(x, y) {
+const point = function(x, y) {
   return {x, y};
 };
+
+export default point;
