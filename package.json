@@ -28,6 +28,7 @@
     "karma-chrome-launcher": "^1.0.1",
     "karma-clear-screen-reporter": "^1.0.0",
     "karma-es6-shim": "^1.0.0",
+    "karma-eslint": "^2.1.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.0",
