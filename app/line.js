@@ -8,6 +8,10 @@ const line = function(p1, p2) {
 
     slope() {
       return (p2.y - p1.y) / (p2.x - p1.x);
+    },
+
+    perpendicularSlope() {
+      return (-1 / this.slope());
     }
   }
 

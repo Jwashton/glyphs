@@ -16,7 +16,7 @@ describe('line', function() {
     slantedLine    = line(p1, p4);
     verticalLine   = line(p1, p5);
   });
-  
+
   it('takes two points', function() {
     expect(horizontalLine.p1).toBe(p1);
   });
@@ -38,6 +38,12 @@ describe('line', function() {
 
     it('is infinite for a vertical line', function() {
       expect(verticalLine.slope()).toBe(Infinity);
+    });
+  });
+
+  describe('#perpendicularSlope', function() {
+    it('is infinite for a horizonal line', function(){
+      expect(horizontalLine.perpendicularSlope()).toBe(Infinity);
     });
   });
 });
