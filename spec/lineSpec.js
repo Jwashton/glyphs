@@ -1,4 +1,4 @@
-import line from '../app/line';
+import { line } from '../app/line';
 import point from '../app/point';
 
 describe('line', function() {

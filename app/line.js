@@ -1,4 +1,4 @@
-const line = function(p1, p2) {
+export const line = function(p1, p2) {
   const newLine = { p1, p2 };
 
   const methods = {
@@ -18,4 +18,6 @@ const line = function(p1, p2) {
   return Object.assign(newLine, methods);
 };
 
-export default line;
+export const findIntercept = function(m, p) {
+
+};
