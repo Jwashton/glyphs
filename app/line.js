@@ -11,7 +11,7 @@ const line = function(p1, p2) {
     },
 
     perpendicularSlope() {
-      return (-1 / this.slope());
+      return Math.abs(-1 / this.slope());
     }
   }
 
